@@ -1,0 +1,41 @@
+-
+  login:
+    -
+      name: visit
+      text: "http://39.98.138.157/shopxo/index.php"
+    -
+      name: click
+      type: "xpath"
+      value: "//a[text()='登录']"
+    -
+      name: sleep
+      text: 2
+    -
+      name: input
+      type: "name"
+      value: "accounts"
+      text: "666666"
+    -
+      name: input
+      type: "name"
+      value: "pwd"
+      text: "111111"
+    -
+      name: click
+      type: "xpath"
+      value: "/html/body/div[4]/div/div[2]/div[2]/form/div[3]/button"
+    -
+      name: sleep
+      text: 3
+
+    - name: click
+      type: "xpath"
+      value: "/html/body/div[2]/div/ul[1]/div/div/a"
+
+    -
+      name: assert_text
+      type: "xpath"
+      value: "//a[text()='退出']"
+      expect: 退出
+
+

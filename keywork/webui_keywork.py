@@ -3,6 +3,7 @@ from selenium.webdriver.common.by import By
 from options.chrome_options import Options
 from time import sleep
 from log.log import Logger
+import openpyxl
 # #v1.0
 # def open_browser(browser_type):
 #     browser_type = browser_type.upper()
@@ -30,6 +31,10 @@ def open_browser(browser_type):
 
     return driver
 
+def load_workbook(workbook_path):
+    return openpyxl.load_workbook(workbook_path)
+
+
 class WebUIKeys:
 
 
@@ -37,43 +42,45 @@ class WebUIKeys:
         self.driver=open_browser(browser_type)
 
 
-    def locator(self,loc_type,value):
+    def locator(self,**kwargs):
         # v1.0
         # if loc_type is 'xpath':
         #     return self.driver.find_element_by_xpath(value)
         # elif loc_type is 'id':
         #     return self.driver.find_element_by_id(value)
         try:
-            return self.driver.find_element(getattr(By,loc_type.upper()),value)
+            return self.driver.find_element(getattr(By,kwargs['type'].upper()),kwargs['value'])
         except Exception as e:
             Logger().log().info("定位元素出现异常，异常信息：\n{}".format(e))
 
-    def input(self,loc_type,value,txt):
-        self.locator(loc_type,value).send_keys(txt)
+    def input(self,**kwargs):
+        self.locator(**kwargs).send_keys(kwargs["text"])
 
-    def click(self,loc_type,value):
-        self.locator(loc_type,value).click()
+    def click(self,**kwargs):
+        self.locator(**kwargs).click()
 
     def quit(self):
         self.driver.quit()
 
-    def visit(self,url):
-        self.driver.get(url)
+    def visit(self,**kwargs):
+        self.driver.get(kwargs["text"])
 
 
-    def sleep(self,time):
-        sleep(time)
+    def sleep(self,**kwargs):
+        sleep(kwargs["text"])
 
-    def wait(self,time):
-        self.driver.implicitly_wait(time)
+    def wait(self,**kwargs):
+        self.driver.implicitly_wait(kwargs["text"])
 
-    def assert_text(self,loc_type,value,expect):
-        reality = self.locator(loc_type,value).text
+    def assert_text(self,**kwargs):
         try:
-            assert reality == expect
+            reality = self.locator(**kwargs).text
+            assert reality == kwargs['expect']
             Logger().log().info("流程正确，断言成功！")
             return True
         except Exception as e:
             Logger().log().info("流程正确，断言失败！失败信息：{}".format(e))
             return False
-
+    #unittest断言函数
+    def get_element(self,loc_type,value):
+        return self.driver.find_element(getattr(By,loc_type.upper()),value).text

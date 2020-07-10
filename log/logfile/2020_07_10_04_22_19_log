@@ -1,0 +1,5 @@
+2020-07-10 04:22:19 webui_keywork.py INFO 正常启动浏览器中......
+2020-07-10 04:22:26 test_cases.py INFO 调用的关键字：visit
+2020-07-10 04:22:26 test_cases.py INFO 调用的关键字：visit
+2020-07-10 04:22:28 common.py INFO 发送邮件成功
+2020-07-10 04:22:28 test_cases.py INFO ---------测试完成----------

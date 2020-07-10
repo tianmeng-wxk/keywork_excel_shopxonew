@@ -3,7 +3,7 @@ class Options:
         from selenium import webdriver
         options = webdriver.ChromeOptions()
         options.add_argument("start-maximized")
-        #options.add_argument("--headless")
+        options.add_argument("--headless")
         options.add_experimental_option('useAutomationExtension', False)
         options.add_experimental_option('excludeSwitches', ['enable-automation'])
         #隐身模式

@@ -1,9 +1,0 @@
-2020-07-01 19:26:12 webui_keywork.py INFO 正常启动浏览器中......
-2020-07-01 19:26:22 test_cases.py INFO 调用wait关键字，所传参数个数为：2
-2020-07-01 19:26:29 test_cases.py INFO 调用visit关键字，所传参数个数为：2
-2020-07-01 19:26:31 test_cases.py INFO 调用click关键字，所传参数个数为：3
-2020-07-01 19:26:31 test_cases.py INFO 调用input关键字，所传参数个数为：4
-2020-07-01 19:26:31 test_cases.py INFO 调用input关键字，所传参数个数为：4
-2020-07-01 19:26:31 test_cases.py INFO 调用click关键字，所传参数个数为：3
-2020-07-01 19:26:31 test_cases.py INFO 调用assert_text关键字，描述信息：None
-2020-07-01 19:26:34 webui_keywork.py INFO 流程正确，断言成功！
