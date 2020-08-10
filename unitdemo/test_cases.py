@@ -1,6 +1,6 @@
 import unittest,time
 from selenium import webdriver
-from keywork.webui_keywork import WebUIKeys
+from key_word.webui_keyword import WebUIKeys
 from log.log import Logger
 from common.common import SendEmail
 from ddt import ddt,file_data
@@ -16,7 +16,6 @@ class TestCase(unittest.TestCase):
 
     @classmethod
     def tearDownClass(cls) -> None:
-        cls.send_email=SendEmail().send_email(r"D:\keywork_shopxo\report\2020_07_07_05_08_43_html_report.html")
         cls.log.info("---------测试完成----------")
         cls.wk.quit()
 

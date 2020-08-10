@@ -8,6 +8,7 @@ class Options:
         options.add_experimental_option('excludeSwitches', ['enable-automation'])
         #隐身模式
         #options.add_argument('incognito')
+        #利用缓存免登录
         #options.add_argument(r'--user-data-dir=C:\Users\王雄开\AppData\Local\Google\Chrome\User Data')
         #去掉密码管理弹窗
         # prefs = {"": ""}

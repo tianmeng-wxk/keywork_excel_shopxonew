@@ -1,0 +1,15 @@
+2020-08-11 06:54:39 test_cases.py INFO 正在执行关键字:open_browser，操作描述：None
+2020-08-11 06:54:39 webui_keywork.py INFO 正常启动浏览器中......
+2020-08-11 06:54:42 test_cases.py INFO 正在执行关键字:wait，操作描述：None
+2020-08-11 06:54:42 test_cases.py INFO 正在执行关键字:visit，操作描述：None
+2020-08-11 06:54:49 test_cases.py INFO 正在执行关键字:click，操作描述：None
+2020-08-11 06:54:51 test_cases.py INFO 正在执行关键字:input，操作描述：None
+2020-08-11 06:54:51 test_cases.py INFO 正在执行关键字:input，操作描述：None
+2020-08-11 06:54:51 test_cases.py INFO 正在执行关键字:click，操作描述：None
+2020-08-11 06:54:51 test_cases.py INFO 正在执行关键字:assert_text，操作描述：None
+2020-08-11 06:54:55 webui_keywork.py INFO 流程正确，断言成功！
+2020-08-11 06:54:55 test_cases.py INFO 正在执行关键字:quit，操作描述：None
+2020-08-11 06:54:57 test_cases.py INFO 正在执行关键字:open_browser，操作描述：None
+2020-08-11 06:54:57 webui_keywork.py INFO 正常启动浏览器中......
+2020-08-11 06:55:00 test_cases.py INFO 正在执行关键字:wait，操作描述：None
+2020-08-11 06:55:00 test_cases.py INFO 正在执行关键字:visit，操作描述：None

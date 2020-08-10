@@ -17,6 +17,7 @@ def read_yaml(file_path):
 
 
 class SendEmail:
+    #发送附件邮件
     def send_email(self,email_path):
         message = MIMEMultipart()
         #邮件内容
@@ -44,6 +45,27 @@ class SendEmail:
             smtp.login(user="3394788013@qq.com", password="lizceyidpekpdbhd")
             sender = "3394788013@qq.com"
             receiver = ['tianmeng_wxk@163.com']
+            smtp.sendmail(sender, receiver, message.as_string())
+            Logger().log().info("发送邮件成功")
+        except smtplib.SMTPException as e:
+            Logger().log().info("发送邮件失败，失败信息：{}".format(e))
+
+    # 发送html格式邮件（需要修改报告源码）
+    def send_mail(self,mail_path):
+        with open(mail_path, 'rb') as f:
+            content = f.read()
+        host = "smtp.qq.com"
+        port = 587
+        sender = "3394788013@qq.com"
+        password = "lizceyidpekpdbhd"
+        receiver = "tianmeng_wxk@163.com"
+        message = MIMEText(content, "HTML", "UTF-8")
+        message["Subject"] = "考研帮APPUI自动化测试"
+        message["From"] = sender
+        message["To"] = receiver
+        try:
+            smtp = smtplib.SMTP(host, port)
+            smtp.login(sender, password)
             smtp.sendmail(sender, receiver, message.as_string())
             Logger().log().info("发送邮件成功")
         except smtplib.SMTPException as e:

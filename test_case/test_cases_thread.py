@@ -8,7 +8,7 @@ if __name__ == '__main__':
     th = []
     for path,dir,files in os.walk("../config/"):
         for file in files:
-            excel_path = path+file
+            excel_path = os.path.join(path, file)
             s = os.path.splitext(file)[1]
             if s == '.xlsx':
                 cases.append(file)

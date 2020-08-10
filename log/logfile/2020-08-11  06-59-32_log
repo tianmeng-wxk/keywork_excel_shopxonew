@@ -1,0 +1,86 @@
+2020-08-11 06:59:32 test_cases_thread.py INFO 该文件不是xlsx后缀文件，文件名为login.yaml
+2020-08-11 06:59:32 test_cases_thread.py INFO 该文件不是xlsx后缀文件，文件名为__init__.py
+2020-08-11 06:59:32 test_cases.py INFO 正在执行关键字:open_browser，操作描述：None
+2020-08-11 06:59:32 webui_keyword.py INFO 正常启动浏览器中......
+2020-08-11 06:59:32 test_cases.py INFO 正在执行关键字:open_browser，操作描述：None
+2020-08-11 06:59:32 webui_keyword.py INFO 正常启动浏览器中......
+2020-08-11 06:59:32 test_cases.py INFO 正在执行关键字:open_browser，操作描述：None
+2020-08-11 06:59:32 webui_keyword.py INFO 正常启动浏览器中......
+2020-08-11 06:59:34 test_cases.py INFO 正在执行关键字:wait，操作描述：None
+2020-08-11 06:59:34 test_cases.py INFO 正在执行关键字:visit，操作描述：None
+2020-08-11 06:59:35 test_cases.py INFO 正在执行关键字:wait，操作描述：None
+2020-08-11 06:59:35 test_cases.py INFO 正在执行关键字:visit，操作描述：None
+2020-08-11 06:59:35 test_cases.py INFO 正在执行关键字:wait，操作描述：None
+2020-08-11 06:59:35 test_cases.py INFO 正在执行关键字:visit，操作描述：None
+2020-08-11 06:59:53 test_cases.py INFO 正在执行关键字:click，操作描述：None
+2020-08-11 06:59:55 test_cases.py INFO 正在执行关键字:click，操作描述：None
+2020-08-11 06:59:55 test_cases.py INFO 正在执行关键字:input，操作描述：None
+2020-08-11 06:59:55 test_cases.py INFO 正在执行关键字:input，操作描述：None
+2020-08-11 06:59:55 test_cases.py INFO 正在执行关键字:click，操作描述：None
+2020-08-11 06:59:55 test_cases.py INFO 正在执行关键字:assert_text，操作描述：None
+2020-08-11 06:59:56 test_cases.py INFO 正在执行关键字:click，操作描述：None
+2020-08-11 06:59:57 test_cases.py INFO 正在执行关键字:input，操作描述：None
+2020-08-11 06:59:57 test_cases.py INFO 正在执行关键字:input，操作描述：None
+2020-08-11 06:59:57 test_cases.py INFO 正在执行关键字:click，操作描述：None
+2020-08-11 06:59:58 test_cases.py INFO 正在执行关键字:assert_text，操作描述：None
+2020-08-11 07:00:00 test_cases.py INFO 正在执行关键字:input，操作描述：None
+2020-08-11 07:00:00 test_cases.py INFO 正在执行关键字:input，操作描述：None
+2020-08-11 07:00:00 test_cases.py INFO 正在执行关键字:click，操作描述：None
+2020-08-11 07:00:00 test_cases.py INFO 正在执行关键字:assert_text，操作描述：None
+2020-08-11 07:00:01 webui_keyword.py INFO 流程正确，断言成功！
+2020-08-11 07:00:01 test_cases.py INFO 正在执行关键字:quit，操作描述：None
+2020-08-11 07:00:02 webui_keyword.py INFO 流程正确，断言成功！
+2020-08-11 07:00:02 test_cases.py INFO 正在执行关键字:quit，操作描述：None
+2020-08-11 07:00:03 test_cases.py INFO 正在执行关键字:open_browser，操作描述：None
+2020-08-11 07:00:03 webui_keyword.py INFO 正常启动浏览器中......
+2020-08-11 07:00:04 test_cases.py INFO 正在执行关键字:open_browser，操作描述：None
+2020-08-11 07:00:04 webui_keyword.py INFO 正常启动浏览器中......
+2020-08-11 07:00:05 webui_keyword.py INFO 流程正确，断言成功！
+2020-08-11 07:00:05 test_cases.py INFO 正在执行关键字:quit，操作描述：None
+2020-08-11 07:00:06 test_cases.py INFO 正在执行关键字:wait，操作描述：None
+2020-08-11 07:00:06 test_cases.py INFO 正在执行关键字:visit，操作描述：None
+2020-08-11 07:00:07 test_cases.py INFO 正在执行关键字:open_browser，操作描述：None
+2020-08-11 07:00:07 webui_keyword.py INFO 正常启动浏览器中......
+2020-08-11 07:00:07 test_cases.py INFO 正在执行关键字:wait，操作描述：None
+2020-08-11 07:00:07 test_cases.py INFO 正在执行关键字:visit，操作描述：None
+2020-08-11 07:00:10 test_cases.py INFO 正在执行关键字:wait，操作描述：None
+2020-08-11 07:00:10 test_cases.py INFO 正在执行关键字:visit，操作描述：None
+2020-08-11 07:00:27 test_cases.py INFO 正在执行关键字:click，操作描述：None
+2020-08-11 07:00:27 test_cases.py INFO 正在执行关键字:click，操作描述：None
+2020-08-11 07:00:29 test_cases.py INFO 正在执行关键字:click，操作描述：None
+2020-08-11 07:00:33 test_cases.py INFO 正在执行关键字:input，操作描述：None
+2020-08-11 07:00:33 test_cases.py INFO 正在执行关键字:input，操作描述：None
+2020-08-11 07:00:33 test_cases.py INFO 正在执行关键字:click，操作描述：None
+2020-08-11 07:00:33 test_cases.py INFO 正在执行关键字:input，操作描述：None
+2020-08-11 07:00:33 test_cases.py INFO 正在执行关键字:assert_text，操作描述：None
+2020-08-11 07:00:33 test_cases.py INFO 正在执行关键字:input，操作描述：None
+2020-08-11 07:00:33 test_cases.py INFO 正在执行关键字:click，操作描述：None
+2020-08-11 07:00:33 test_cases.py INFO 正在执行关键字:assert_text，操作描述：None
+2020-08-11 07:00:33 test_cases.py INFO 正在执行关键字:input，操作描述：None
+2020-08-11 07:00:33 test_cases.py INFO 正在执行关键字:input，操作描述：None
+2020-08-11 07:00:33 test_cases.py INFO 正在执行关键字:click，操作描述：None
+2020-08-11 07:00:33 test_cases.py INFO 正在执行关键字:assert_text，操作描述：None
+2020-08-11 07:00:43 webui_keyword.py INFO 定位元素出现异常，异常信息：
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='退出']"}
+  (Session info: headless chrome=84.0.4147.105)
+
+2020-08-11 07:00:43 webui_keyword.py INFO 流程正确，断言失败！失败信息：'NoneType' object has no attribute 'text'
+2020-08-11 07:00:43 test_cases.py INFO 正在执行关键字:quit，操作描述：None
+2020-08-11 07:00:43 webui_keyword.py INFO 定位元素出现异常，异常信息：
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='退出']"}
+  (Session info: headless chrome=84.0.4147.105)
+
+2020-08-11 07:00:43 webui_keyword.py INFO 流程正确，断言失败！失败信息：'NoneType' object has no attribute 'text'
+2020-08-11 07:00:43 test_cases.py INFO 正在执行关键字:quit，操作描述：None
+2020-08-11 07:00:43 webui_keyword.py INFO 定位元素出现异常，异常信息：
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='退出']"}
+  (Session info: headless chrome=84.0.4147.105)
+
+2020-08-11 07:00:43 webui_keyword.py INFO 流程正确，断言失败！失败信息：'NoneType' object has no attribute 'text'
+2020-08-11 07:00:43 test_cases.py INFO 正在执行关键字:quit，操作描述：None
+2020-08-11 07:00:45 test_cases.py INFO 文件读取完毕，自动化执行结束！
+
+2020-08-11 07:00:45 test_cases.py INFO 文件读取完毕，自动化执行结束！
+
+2020-08-11 07:00:46 test_cases.py INFO 文件读取完毕，自动化执行结束！
+

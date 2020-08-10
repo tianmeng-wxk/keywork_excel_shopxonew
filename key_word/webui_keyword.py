@@ -72,6 +72,34 @@ class WebUIKeys:
     def wait(self,**kwargs):
         self.driver.implicitly_wait(kwargs["text"])
 
+    # 切换至新窗体
+    def switch_to_new_current(self, **kwargs):
+        handles = self.driver.window_handles
+        self.driver.switch_to.window(handles[1])
+
+    # 关闭旧窗体
+    def close_old_current(self, **kwargs):
+        self.driver.close()
+
+    # 切换至旧窗体
+    def switch_to_old_current(self, **kwargs):
+        handles = self.driver.window_handles
+        self.driver.switch_to.window(handles[0])
+
+    # 切换至新窗体，并关闭旧窗体
+    def switch_and_close(self, **kwargs):
+        handles = self.driver.window_handles
+        self.driver.close()
+        self.driver.switch_to.window(handles[1])
+
+    # 切换至Iframe窗体
+    def switch_to_iframe(self, **kwargs):
+        self.driver.switch_to.frame(self.locator(**kwargs))
+
+    # 切换回默认窗体
+    def switch_to_default(self, **kwargs):
+        self.driver.switch_to.default_content()
+
     def assert_text(self,**kwargs):
         try:
             reality = self.locator(**kwargs).text

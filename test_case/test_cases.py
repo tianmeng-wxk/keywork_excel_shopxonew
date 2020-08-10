@@ -1,4 +1,4 @@
-from keywork.webui_keywork import WebUIKeys, load_workbook
+from key_word.webui_keyword import WebUIKeys, load_workbook
 import openpyxl
 from openpyxl.styles import PatternFill,Font
 from log.log import Logger
